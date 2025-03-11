@@ -20,7 +20,7 @@ class ProductCaseStudyResource extends Resource
 {
     protected static ?string $model = ProductCaseStudy::class;
 
-    protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
+    protected static ?string $navigationIcon = 'heroicon-m-numbered-list';
     protected static ?string $navigationGroup = 'Products';
     protected static ?int $navigationSort = 2;
 

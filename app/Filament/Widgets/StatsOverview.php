@@ -20,7 +20,6 @@ class StatsOverview extends BaseWidget
                 ->color('success'),
             Stat::make('Total Category', Category::count())
                 ->description(' ')
-                ->descriptionIcon('heroicon-m-arrow-trending-down')
                 ->color('danger'),
         ];
     }

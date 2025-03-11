@@ -21,7 +21,7 @@ class ProductAnalysisResource extends Resource
 {
     protected static ?string $model = ProductAnalysis::class;
 
-    protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
+    protected static ?string $navigationIcon = 'heroicon-o-magnifying-glass-circle';
     protected static ?string $navigationLabel = 'Product Analysis';
     protected static ?string $pluralModelLabel = 'Product Analysis';
     protected static ?string $navigationGroup = 'Products';
